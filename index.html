@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="aside">
+            <header class="header">
+                <img class="profile-avatar" src="images/avatar.jpg" alt="">
+                <h1>Daniyar Bakytov</h1>
+                <span class="job-title">Aspiring frontend developer</span>
+                <nav class="nav">
+                    <h3 class="article-heading">Contacts:</h3>
+                    <ul class="contacts">
+                        <li class="contact-item"><a target="_blank" href="https://wa.me/996702113296">WhatApp: +996 702113296</a></li>
+                        <li class="contact-item"><a target="_blank" href="https://t.me/danchobakytov">Telegram: @danchobakytov</a></li>
+                        <li class="contact-item"><a target="_blank" href="tel:+996702113296">Tel: +996 702113296</a></li>
+                    </ul>
+                    
+                </nav>
+            </header>
+            <article class="article">
+                <h3 class="article-heading">Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git/GitHub</li>
+                    <li>JavaScript(beginner)</li>
+                </ul>
+            </article>
+            <article class="article">
+                <h3 class="article-heading">Language</h3>
+                <ul>
+                    <li>Russian - С1</li>
+                    <li>English - А2</li>
+                </ul>
+            </article>
+            <article class="article">
+                <h3 class="article-heading">Hobbies & Interest</h3>
+                <ul>
+                    <li>NBA</li>
+                    <li>Hip-Hop</li>
+                    <li>Book</li>
+                </ul>
+            </article>
+            <footer class="footer">
+                <h3 class="article-heading">Links and Credentials</h3>
+                <ul>
+                    <li><a target="_blank" href="https://github.com/danchikhub"  class="footer-item"> Github</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/" class="footer-item"> Instagram</a></li>
+                    <li><a target="_blank" href="https://rs.school/js/"> <img class="rsschool-icon" src="images/icons/rs_school_js.svg" alt=""></a></li>
+                    
+                </ul>
+            </footer>
+        </aside>
+        <main class="main">
+            <article>
+                <h2 class="main-heading">About</h2>
+                <p>
+                    My goal is to become a front-end developer and successfully complete the course from rs-school
+                </p>
+            </article>
+            <article>
+                <h2 class="main-heading">Education</h2>
+               <p>Kyrgyz State Technical University named after I.Razzakov</p>
+            </article>
+            <article>
+                <h2 class="main-heading">Code Examples</h2>
+                <div class="code">   
+                    <code>
+                        function getMiddle(s){<br>
+                            &emsp;&emsp;let arr = s.split('');<br>
+                            &emsp;&emsp;let start = 0;<br>
+                            &emsp;&emsp;let end = arr.length - 1;<br>
+                            &emsp;&emsp;let middle = Math.floor((start + end) / 2);<br>
+                            &emsp;&emsp;if(arr.length % 2 == 0) {<br>
+                                &emsp;&emsp;&emsp;&emsp;return `${arr[middle]}${arr[middle + 1]}`<br>
+                            &emsp;&emsp;} else {<br>
+                            &emsp;&emsp;    let middle = Math.floor((start + end) / 2);<br>
+                            &emsp;&emsp;    return `${arr[middle]}`<br>
+                            &emsp;&emsp;}<br>
+                        }
+                    </code>
+                </div>
+                
+            </article>
+            <article>
+                <h2 class="main-heading">Projects</h2>
+                <a target="_blank" class="project-item" href="https://danchikhub.github.io/rsschool-cv/">My CV project</a>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
