@@ -112,6 +112,11 @@ ul > li {
     margin-top: -15px;
 }
 
+.footer > ul > li:last-child{
+    padding-left: 0;
+    margin-top: -15px;
+}
+
 .rsschool-icon {
     width: 50px;
     height: 50px;
